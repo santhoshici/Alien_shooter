@@ -1,0 +1,2 @@
+creation 
+ CREATE TABLE Space (id int AUTO_INCREMENT PRIMARY KEY, user varchar(20), pass varchar(15), highscore int DEFAULT 0);
