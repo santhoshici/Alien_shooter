@@ -7,12 +7,12 @@ import mysql.connector
 from pygame import mixer
 #SQL CONNECTIONS
 
-
+#fill the below with respective credentials of mySQL
 my_db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Sandy@050406",
-    database="ghost_py",
+    host="",
+    user="",
+    password="",
+    database="",
     auth_plugin='mysql_native_password'
 )
 
